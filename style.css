@@ -1,0 +1,168 @@
+body {
+	font-family: 'Overpass', sans-serif;
+	margin: 0;
+	background-color: black;
+}
+
+.leftmenu {
+	background-color: #373737;
+	height: 250vh;
+	width: 15%;
+	padding: 2em;
+	padding-left: 40px;
+	display: inline-block;
+	float: left;
+}
+
+.title {
+	font-family: 'Overpass', sans-serif;
+	font-size: 34px;
+	font-weight: 900;
+	text-align: right;
+	padding-right: 7px;
+}
+
+hr {
+	border: 1px solid black;
+}
+
+.leftmenu h3 {
+	font-size: 15px;
+	font-weight: 400;
+	text-align: justify;
+	padding-right: 7px;
+	text-align: right;
+	color: black;
+}
+
+#pages a {
+	display: block;
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+	text-align: right;
+	padding-right: 7px;
+	line-height: 200%;
+}
+
+.right {
+	height: 90vh;
+	width: auto;
+	position: relative;
+	text-align: left;
+	float: left;
+	padding-left: 2em;
+	padding-top: 1em;
+}
+
+.right-7 {
+	position: absolute;
+	left: 22em;
+	top: 2em;
+}
+
+#highlight-paragraph {
+	font-family: 'Tajawal', sans-serif;
+	font-size: 23px;
+	line-height: 200%;
+	height: 90vh;
+	width: 70vw;
+	display: inline-block;
+	position: absolute;
+	text-align: left;
+	float: left;
+	padding-left: 2em;
+	color: white;
+}
+
+
+
+/*.highlight {
+	background-color: black;
+	display: inline;
+}
+
+.colorchange {
+	text-decoration-color: black;
+	display: inline;
+}*/
+
+/*span.change {
+    color: red;
+}
+span {
+    color:black;
+}*/
+
+.word.highlighted {
+  color: black;
+}
+
+@media screen and (max-width: 480px) {
+	body {
+		font-family: 'Overpass', sans-serif;
+		margin: 0;
+		background-color: black;
+	}
+	.leftmenu {
+		background-color: #373737;
+		height: 30%;
+		width: 85%;
+	}
+	.title {
+		font-family: 'Overpass', sans-serif;
+		font-size: 34px;
+		font-weight: 900;
+		margin-top: 0;
+		padding-top: 0;
+		text-align: left;
+	}
+	.leftmenu h3 {
+		font-size: 15px;
+		font-weight: 100;
+		text-align: left;
+	}
+	#pages {
+		columns: 100px 3;
+	}
+	#pages a {
+		text-align: left;
+	}
+	.right {
+		height: 100%;
+		width: auto;
+		padding: 0.5em;
+		position: relative;
+		z-index: 100;
+	}
+	#highlight-paragraph {
+		font-family: 'Tajawal', sans-serif;
+		font-size: 18px;
+		line-height: 200%;
+		height: 90vh;
+		width: 90vw;
+		padding: 1em;
+		position: relative;
+		text-align: left;
+		padding-left: 1em;
+		color: white;
+	}
+
+	h3.booktitle {
+		text-align: center;
+	}
+
+	p.description {
+		text-align: center;
+	}
+	.right-7 {
+		position: absolute;
+		top: 30px;
+		left: 2px;
+	}
+	.sticky {
+		position: fixed;
+		top: 0;
+		width: 100%;
+	}
+}
